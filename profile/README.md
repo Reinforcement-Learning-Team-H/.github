@@ -1,1 +1,34 @@
-## 2024년 1학기 강화학습 기말 프로젝트 팀H
+> [!NOTE]
+> ## 알아두세요 :
+> 이 README 파일은 GitHub Organization 에 대한 README 입니다.
+> 
+> 조직의 [메인 레포지토리](https://github.com/Reinforcement-Learning-Team-H/RL_Main)로 이동하여 더 자세한 README 를 읽어주세요.
+>
+> > 메인 레포지토리로 이동 -> [링크](https://github.com/Reinforcement-Learning-Team-H/RL_Main)
+
+# 🤖 강화학습 기말 프로젝트 팀 H
+
+한림대학교 2024-1학기 강화학습 과목의 기말 프로젝트 팀H 레포지토리 입니다.
+
+주식시장에서의 불안정성을 강화학습으로 해결 해 보고자 프로젝트를 진행하게 되었습니다.
+
+3년치의 뉴스 데이터와 나스닥 상위 10개 종목의 주가를 가지고 학습을 진행하였습니다.
+
+## 🧑‍💻 팀원 소개
+
+- 한림대학교 콘텐츠IT 19학번 민경환 (팀장) [GitHub🔗](https://github.com/leo929 "leo929")
+- 한림대학교 빅데이터 19학번 남궁찬 [GitHub🔗](https://github.com/namgungcold "namgungcold")
+- 한림대학교 빅데이터 19학번 황승원 [GitHub🔗](https://github.com/kevin1113-github "kevin1113dev")
+
+## 📝 프로젝트 요약
+
+1. 3년치 뉴스 데이터를 크롤링 합니다.
+2. BERT 모델을 사용하여 감성분석을 진행합니다.
+3. yfinance 라이브러리를 활용하여 3년치 주가 데이터를 가져옵니다.
+4. 매수, 매도, 대기 세 가지의 행동을 하는 강화학습 에이전트를 학습 시킵니다. 하루에 최대 1주씩 매매합니다.
+5. 진행 된 학습 결과 모델을 10 에피소드 마다 체크포인트로 저장하여 matplotlib 라이브러리의 pyplot 을 활용하여 시각화합니다.
+6. 결과를 분석하고 개선사항을 도출합니다.
+
+## 최종 수정일
+
+- 2024년 6월 14일 금요일
